@@ -1,0 +1,331 @@
+﻿{
+  "ret": 0, 
+  "msg": "ok", 
+  "errorcode": 0, 
+  "data": {
+    "count": "71", 
+    "list": [
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "1", 
+          "channel_id": "4", 
+          "id": "ENT2016070804595100", 
+          "abstract": "组图：李晨带着范冰冰兜风 你俩还能再腻点么？", 
+          "title": "李晨带着范冰冰兜风 两人太腻歪了", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400636490_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_lsa/0/400375213_685160/0"
+          }, 
+          "timestamp": "1468029324"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "1", 
+          "channel_id": "4", 
+          "id": "ENT2016070900479800", 
+          "abstract": "赵又廷高圆圆双双把家还 牵手还楼肩膀猛发狗粮", 
+          "title": "赵又廷高圆圆双双把家还 牵手又楼肩", 
+          "src": "视觉中国", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/401050824_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_lsa/0/400857685_685160/0"
+          }, 
+          "timestamp": "1468029321"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "0", 
+          "channel_id": "4", 
+          "id": "ENT2016070901127400", 
+          "abstract": "《寒战2》有多少线索你没看懂？有多少人物关系你看蒙圈了。快来告诉我，我们让导演一五一十地和你解锁！看完这篇，你仔细回味下或者进电影院二刷，就会恍然得get到：原来这里面埋了这么多深梗！", 
+          "title": "告诉我哪里看不懂！给你全面解锁《寒战2》", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/399941821_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_ls/0/399941821_150120/0"
+          }, 
+          "timestamp": "1468028822"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "0", 
+          "channel_id": "4", 
+          "id": "ENT2016070900908200", 
+          "abstract": "乔治小王子本月22日即将满3岁，他和爸妈现身皇家空军的操演现场，搭乘直升机抵达现场，可能因现场人群众多，加上各式飞机引擎的噪音轰轰作响，他突然当众大哭，要凯特王子妃抱他。", 
+          "title": "乔治小王子当众大哭求抱抱 小傲娇哭起来也萌萌哒", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400999378_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_ls/0/400999378_150120/0"
+          }, 
+          "timestamp": "1468027806"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "1", 
+          "channel_id": "4", 
+          "id": "ENT2016070901175000", 
+          "abstract": "刘雯和杜鹃同场斗艳，两人都是妥妥的超模范儿", 
+          "title": "刘雯杜鹃同场斗艳，超模随时都能起范儿", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400996233_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_lsa/0/400996234_685160/0"
+          }, 
+          "timestamp": "1468027435"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "0", 
+          "channel_id": "4", 
+          "id": "ENT2016070901196200", 
+          "abstract": "在经历了呛声节目组，任性“放弃任务”后，越玩越开的郭德纲，竟直接带着男团跑路了！郭德纲直言：“我们决定为真人秀叛逆一把！”", 
+          "title": "花样男团出逃 郭德纲：这才是真正的真人秀", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400986585_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_ls/0/400986585_150120/0"
+          }, 
+          "timestamp": "1468027148"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "0", 
+          "channel_id": "4", 
+          "id": "ENT2016070901196100", 
+          "abstract": "对于为何选择响油鳝丝这道菜送给最想感谢的孙教练，刘翔在采访中表示，“这是我小时候的味道，也是孙教练最熟悉的味道。”", 
+          "title": "刘翔买鳝鱼逗趣砍价 自曝难以忘记教练做的菜", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400986544_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_ls/0/400986544_150120/0"
+          }, 
+          "timestamp": "1468027142"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "0", 
+          "channel_id": "4", 
+          "id": "ENT2016070901196000", 
+          "abstract": "初来乍到，小沈阳不仅凭借细腻而不失沉厚的嗓音惊艳四座，同时也因上演向其他选手下跪的意外事件而让人大跌眼镜。", 
+          "title": "小沈阳补位《跨界歌王》竟然向其他选手下跪", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400986519_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_ls/0/400986519_150120/0"
+          }, 
+          "timestamp": "1468027136"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "1", 
+          "channel_id": "4", 
+          "id": "ENT2016070900693800", 
+          "abstract": "组图：刘诗诗穿一身绿裙 温婉得像画中仙子", 
+          "title": "刘诗诗穿一身绿裙 温婉得像画中仙子", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400895705_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_lsa/0/400895706_685160/0"
+          }, 
+          "timestamp": "1468026863"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "0", 
+          "channel_id": "4", 
+          "id": "ENT2016070900498600", 
+          "abstract": "秦伟回到了板桥新板特区的豪宅，据悉此住处市价高达1.3亿元台币（约2700万人民币），还曾自居“房产大亨”，不过之后就被离职员工爆料“房子都是租来的”。", 
+          "title": "被控性侵7人男星拥30处房产，自称大亨，前员工称都租来的", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400865804_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_ls/0/400865804_150120/0"
+          }, 
+          "timestamp": "1468026757"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "1", 
+          "channel_id": "4", 
+          "id": "ENT2016070901064400", 
+          "abstract": "蒋勤勤素颜和家人出游 老公儿子都是“幸福肥”", 
+          "title": "蒋勤勤素颜和家人出游 一家都是幸福肥", 
+          "src": "视觉中国", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400975971_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_lsa/0/400975972_685160/0"
+          }, 
+          "timestamp": "1468026728"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "0", 
+          "channel_id": "4", 
+          "id": "ENT2016070900572800", 
+          "abstract": "7月8日下午，阿娇在微博上发文回应了关心刚刚失去外婆的阿Sa的网友们，并晒出两人与阿Sa外婆的亲密合影，表示会和和阿Sa一起加油，也会好好照顾阿Sa。", 
+          "title": "阿Sa外婆过世 阿娇安慰：会好好照顾阿Sa", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400875396_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_ls/0/400875396_150120/0"
+          }, 
+          "timestamp": "1468026167"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "0", 
+          "channel_id": "4", 
+          "id": "ENT2016070901039400", 
+          "abstract": "为救出被神秘组织暗算的功夫英雄们，“演技担当”范冰冰势如破冰，化身“武林高手”奋勇冲关！一开场范冰冰就使得一手“化骨绵棍”，被打中的气球表面毫发无伤。", 
+          "title": "范冰冰大秀“轻功” 李晨穿高跟鞋表情痛苦", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400909921_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_ls/0/400909921_150120/0"
+          }, 
+          "timestamp": "1468025803"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "0", 
+          "channel_id": "4", 
+          "id": "ENT2016070900682000", 
+          "abstract": "7月8日，大盘票房达到2.76亿，这也是近一月以来票房最高的单日。", 
+          "title": "单日票房2.76亿，暑期档轰出第一炸！", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400871722_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_ls/0/400871722_150120/0"
+          }, 
+          "timestamp": "1468025670"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "0", 
+          "channel_id": "4", 
+          "id": "ENT2016070804905100", 
+          "abstract": "欧阳妮妮在校规修改之后4天，就找枪手代考期末考，还能避免被退学，如此强运网友却觉得不意外。", 
+          "title": "欧阳妮妮代考早有预谋？校方考试前4天改校规减轻处罚", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400676454_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_ls/0/400676454_150120/0"
+          }, 
+          "timestamp": "1468025352"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "0", 
+          "channel_id": "4", 
+          "id": "ENT2016070804026500", 
+          "abstract": "此前李心洁晒出的大肚照腾讯娱乐讯据台湾媒体《中时电子报》7月8日报道，40岁女星李心洁6年前嫁给香港导演彭顺，2014年彭顺爆发外遇事件，李心洁选择原谅，夫妻俩重修旧好后，今年初李心洁幸福宣布怀孕，且怀的还是双胞胎，双喜临门，据报道，李心洁今（8日）下午宣布顺利产下双胞胎儿子，夫妻俩都为新成员到来相当开心。", 
+          "title": "恭喜！40岁李心洁卸货成功 顺利产下双胞胎儿子", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/399652262_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_ls/0/399652262_150120/0"
+          }, 
+          "timestamp": "1468025315"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "0", 
+          "channel_id": "4", 
+          "id": "ENT2016070900587700", 
+          "abstract": "照片中，杨紫和王大陆都拿着饮料，但肤色一黑一白，对比十分明显。而杨紫眉清目秀，明显是越长越好看了。", 
+          "title": "杨紫和王大陆成黑白双煞 小雪漂亮得都认不出了", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400874629_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_ls/0/400874629_150120/0"
+          }, 
+          "timestamp": "1468025290"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "0", 
+          "channel_id": "4", 
+          "id": "ENT2016070900469800", 
+          "abstract": "当时报道指欧阳妮妮太紧张失常才输了，以致无法参加4月23日的决赛，但读者从她日前为演艺工作竟然找枪手代考的行为来看，怀疑她是故意输掉资格赛，才能顺理成章地参加与决赛撞期的品牌活动。", 
+          "title": "欧阳妮妮还有黑料？被曝故意输掉运动比赛，只为抢赚代言", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400861102_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_ls/0/400861102_150120/0"
+          }, 
+          "timestamp": "1468025180"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "0", 
+          "channel_id": "4", 
+          "id": "ENT2016070900458600", 
+          "abstract": "照片上的张柏芝明显清瘦不少，上围缩水，大腿也细到不行。", 
+          "title": "张柏芝暴瘦，不仅没了胸，连腿都变成了火柴棍", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400866715_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_ls/0/400866715_150120/0"
+          }, 
+          "timestamp": "1468025166"
+        }
+      }, 
+      {
+        "type": 0, 
+        "content": {
+          "articletype": "0", 
+          "channel_id": "4", 
+          "id": "ENT2016070900489800", 
+          "abstract": "视频中，孙燕姿和爸爸一起来看周杰伦的演唱会，在表演进行到2分14秒的时候，孙燕姿发现自己出现在大屏幕上。", 
+          "title": "孙燕姿偷偷看周杰伦演唱会 没想到素颜的自己出现在屏幕上", 
+          "src": "腾讯娱乐", 
+          "thumbnails_pic": {
+            "qqnews_thu_big": "http://inews.gtimg.com/newsapp_ls/0/400864153_640330/0", 
+            "qqnews_thu": "http://inews.gtimg.com/newsapp_ls/0/400864153_150120/0"
+          }, 
+          "timestamp": "1468025140"
+        }
+      }
+    ], 
+    "cur_count": 20
+  }
+}

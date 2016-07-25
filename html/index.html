@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="adress=no" />
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/swiper-3.3.1.min.css">
+	<title>腾讯新闻</title>
+</head>
+<body class="bg-list">
+	<script type = "text/html" id ="J_Nav">
+		<div class="g-header-nav-wrap">
+			<ul id="J_Nav" class="g-header-nav" style="transform: translateX(0px);">
+				{{ each list as value}}
+				{{if value.id =="0"}}
+				<li class="active" id={{ value.id }}><a href="javascript:;">{{ value.text }}</a></li>
+				{{else}}
+				<li id={{ value.id }}><a href="javascript:;">{{value.text }}</a></li>
+				{{ /if }}
+				{{ /each}}
+			</ul>
+		</div>
+		<div class="g-header-nav-gap"></div>
+		<div class="swiper-container swiper-container-horizontal">
+	    	<div class="swiper-wrapper">
+	    		{{ each list as value}}
+	    		<div class="swiper-slide" ></div>
+				{{ /each}}
+	    	</div>
+	    </div>
+	</script>
+
+	<script type="text/html" id = 'J_Banner'>
+		<div class="g-search">
+		    <span>2016-07-18 01:02:51</span>
+		</div>
+		<div class="g-banner">
+		    <a href="/h5/default/detail?id={{content.id}}">
+		        <img class="img" src="{{content.thumbnails_pic.qqnews_thu_big}}">
+		        <p class="text">{{content.title}}</p>
+		    </a>
+		</div>
+	</script>
+	<script type="text/html" id = "J_Style">
+		<ul class="g-list">
+		    {{each list as value}}
+		    {{if value.type == 2}}
+		     <li>
+		        <a class="f-ad" href="{{value.content.app_url}}">
+		            <img src="{{value.content.pic_url}}">
+		        </a>
+		    </li>
+		    {{else if value.type == 1}}
+		    <li>
+		        <a class="ad-item" href="{{value.content.list[1].app_url}}">
+		            <img src="{{value.content.list[1].pic_url}}">
+		        </a>
+		        <a class="ad-item" href="{{value.content.list[1].app_url}}">
+		            <img src="{{value.content.list[1].pic_url}}">
+		        </a>
+		        <a class="ad-item" href="{{value.content.list[1].app_url}}">
+		            <img src="{{value.content.list[1].pic_url}}">
+		        </a>
+		        <div class="cb"></div>
+		    </li>
+		    {{else if value.type == 0}}
+		        {{if value.content.articletype == 1}}
+		        <li>
+		            <a href="/h5/default/detail?id={{value.content.id}}">
+		                <p class="img-title">{{value.content.title}}</p>
+		                <div class="f-ad">
+		                    <img src="{{value.content.thumbnails_pic.qqnews_thu}}">
+		                </div>
+		                <div class="cb"></div>
+		                <div class="img-text">
+		                    <span>{{value.content.src}}</span>
+		                    <p class="fr">
+		                        <span></span>
+		                    </p>
+		                </div>
+		            </a>
+		        </li>
+		        {{else}}
+		        <li>
+		            <a class="href" href="/h5/default/detail?id={{value.content.id}}">
+		                <div class="left"><img
+		                        src="{{value.content.thumbnails_pic.qqnews_thu}}"></div>
+		                <div class="right">
+		                    <h2 class="title cliplines line2">{{value.content.title}}</h2>
+		                    <div class="right-tip">
+		                        <span class="author">{{value.content.src}}</span>
+		                    </div>
+		                </div>
+		            </a>
+		        </li>
+		        {{/if}}
+		    {{/if}}
+		    {{/each}}
+		</ul>
+	</script>
+	 <script type="text/html" id = "J_More">
+		    {{each list as value}}
+		    {{if value.type == 2}}
+		     <li>
+		        <a class="f-ad" href="{{value.content.app_url}}">
+		            <img src="{{value.content.pic_url}}">
+		        </a>
+		    </li>
+		    {{else if value.type == 1}}
+		    <li>
+		        <a class="ad-item" href="{{value.content.list[1].app_url}}">
+		            <img src="{{value.content.list[1].pic_url}}">
+		        </a>
+		        <a class="ad-item" href="{{value.content.list[1].app_url}}">
+		            <img src="{{value.content.list[1].pic_url}}">
+		        </a>
+		        <a class="ad-item" href="{{value.content.list[1].app_url}}">
+		            <img src="{{value.content.list[1].pic_url}}">
+		        </a>
+		        <div class="cb"></div>
+		    </li>
+		    {{else if value.type == 0}}
+		        {{if value.content.articletype == 1}}
+		        <li>
+		            <a href="/h5/default/detail?id={{value.content.id}}">
+		                <p class="img-title">{{value.content.title}}</p>
+		                <div class="f-ad">
+		                    <img src="{{value.content.thumbnails_pic.qqnews_thu}}">
+		                </div>
+		                <div class="cb"></div>
+		                <div class="img-text">
+		                    <span>{{value.content.src}}</span>
+		                    <p class="fr">
+		                        <span></span>
+		                    </p>
+		                </div>
+		            </a>
+		        </li>
+		        {{else}}
+		        <li>
+		            <a class="href" href="/h5/default/detail?id={{value.content.id}}">
+		                <div class="left"><img
+		                        src="{{value.content.thumbnails_pic.qqnews_thu}}"></div>
+		                <div class="right">
+		                    <h2 class="title cliplines line2">{{value.content.title}}</h2>
+		                    <div class="right-tip">
+		                        <span class="author">{{value.content.src}}</span>
+		                    </div>
+		                </div>
+		            </a>
+		        </li>
+		        {{/if}}
+		    {{/if}}
+		    {{/each}}
+	</script>   
+	<script type="text/html" id = "J_ABaner">
+		
+		<div class="life-wrap">
+		    <div class="g-search u-bb1">
+		        <span>07-18 星期一</span>
+		        <a class="u-search" href="javascript:;"><span class="ico"></span></a>
+		    </div>
+		    <h2 class="life-wrap-title">
+		        {{guidance_one}}
+		    </h2>
+		    <div class="g-banner">
+		        <a href="{{download_url}}">
+		            <img class="img" src="{{img_url}}" alt="{{img_type}}">
+		        </a>
+		    </div>
+		    <div class="life-download pl12 pr1 u-bb1">
+		        {{popu_name}}
+		        <a class="button" href="{{download_url}}">
+		            立即下载
+		        </a>
+		    </div>
+		</div>
+	</script>
+	<script type="text/html" id = "J_AList"> 
+		
+		<ul class="J_LifeNav life-nav">
+		    <li class="current">必备利器</li>
+		    <li>飙升榜</li>
+		    <li>优惠生活</li>
+		</ul>
+		<div class="J_LifeWrap">
+		    
+		    <div>
+		        <ul class="life-list">
+		        {{each sub_items as value}}
+		        {{if value.category == '0'}}
+		            <li>
+		                <a class="href" href="{{value.download_url}}">
+		                    <img class="left" src="{{value.img_url}}">
+		                    <div class="right">
+		                        <h2 class="title cliplines line2 h48">{{value.guidance_one}}</h2>
+		                        <p class="text elps">
+		                            {{value.popu_name}}
+		                        </p>
+		                        <div class="down">立即下载</div>
+		                    </div>
+		                </a>
+		            </li>
+		        {{/if}}
+		        {{/each}}
+		        </ul>
+		    </div>
+		    <div class="none">
+		        <ul class="life-list">
+		        
+		        </ul>
+		    </div>
+		    <div class="none">
+		        <ul class="life-list">
+		        
+		        </ul>
+		    </div>
+		</div>
+	</script>
+	<script type="text/html" id = "J_Category1">
+	<div class="g-header-nav-wrap">
+		{{each sub_items as value}}
+		{{if value.category == '1'}}
+		    <li>
+		        <a class="href" href="{{value.download_url}}">
+		            <img class="left" src="{{value.img_url}}">
+		            <div class="right">
+		                <h2 class="title cliplines line2 h48">{{value.guidance_one}}</h2>
+		                <p class="text elps">
+		                    {{value.popu_name}}
+		                </p>
+		                <div class="down">立即下载</div>
+		            </div>
+		        </a>
+		    </li>
+		{{/if}}
+		{{/each}}
+	</div>
+	</script>
+	<script type="text/html" id = "J_Category2">
+		
+		{{each sub_items as value}}
+		{{if value.category == '2'}}
+		    <li>
+		        <a class="href" href="{{value.download_url}}">
+		            <img class="left" src="{{value.img_url}}">
+		            <div class="right">
+		                <h2 class="title cliplines line1">{{value.guidance_one}}</h2>
+		                <p class="ad cliplines line1">{{value.guidance_two}}</p>
+		                <p class="text elps">
+		                    {{value.popu_name}}
+		                </p>
+		                <div class="down">下载领取</div>
+		            </div>
+		        </a>
+		    </li>
+		{{/if}}
+		{{/each}}
+	</script>
+
+	
+	<script type="text/javascript" src="../js/zepto-1.1.4.min.js"></script>
+	<script type="text/javascript" src="../js/TouchSlide.1.1.js"></script>
+	<script type="text/javascript" src="../js/swiper.min.js"></script>
+	<script type="text/javascript" src="../js/artTemplate.js"></script>
+	<script type="text/javascript" src="../js/mylist2.js"></script>
+</body>
+</html>
+

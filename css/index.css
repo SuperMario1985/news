@@ -1,0 +1,55 @@
+/*
+* @Author: Mr Li
+* @Date:   2016-07-17 14:59:32
+* @Last Modified by:   Mr Li
+* @Last Modified time: 2016-07-20 20:40:08
+*/
+.bg-list { background:#F0F0F0; }
+
+
+/* 头部nav开始 */
+.g-header-nav-wrap { position:fixed; left:0; top:0; width:100%; height:.49rem; background:#F4F4F4; overflow:hidden; border-bottom:1px solid #C2C2C2; z-index:100;}
+.g-header-nav { width:9999px; height:.49rem; line-height:.49rem; background-color:#F4F4F4; color:#646464; transition:-webkit-transform 0s ease-out; -webkit-transform: translateX(0px);}
+.g-header-nav li { width:.53rem; text-align:center; float:left;}
+.g-header-nav li a:visited,
+.g-header-nav li a { color:#646464; }
+.g-header-nav li.active a { background-color:#DFE6F0; color:#3956A8; padding:.05rem; border-radius:.1rem; }
+.g-header-nav-gap { height:50px; width:100%; }
+/* 头部nav结束 */
+
+
+
+/* 请求的数据开始 */
+.g-search { position:relative; background:#EEEEEE; padding-left:.12rem; font-size:.12rem; height:.24rem; line-height:.24rem; color:#737373;}
+.u-search { padding:5px 18px 5px 18px; width:.16rem; height:.14rem; position:absolute; right:0; top:0;}
+.u-search .ico { display:block; width:.16rem; height:.14rem; background-image:url(../images/slice/search.png);}
+.g-list { padding-left:.12rem; padding-right:.1rem; background-color:#F0F0F0; }
+.g-list .img-title { line-height:.16rem; padding-bottom:.1rem; font-size:.16rem; color:#101010;}
+.g-list .img-text { padding-top:.07rem; font-size:.14rem; color:#949494; }
+.g-list .img-text p { padding-right:.07rem; }
+.g-list .img-text p span:nth-child(1) { margin-right:.1rem; }
+.g-list .f-ad { display:block; width:100%;  }
+.g-list .f-ad img { display:block; width:100%; min-height:.65rem; }
+.g-list .ad-item { display:block; width:31.8%; float:left; min-height:.65rem; }
+/*.g-list .ad-item img { display:block; width:100%; min-height:.65rem; max-height:.76rem; }*/
+.g-list .ad-item img { display:block; width:100%; min-height:.65rem;}
+.g-list .ad-item:nth-child(2) { margin-left:2%; } 
+.g-list .ad-item:nth-child(3) { margin-left:2%; }
+.g-list li { padding-top:.12rem; padding-bottom:.12rem; border-bottom:1px solid #D5D5D5;}
+.g-list li .video { position:absolute; left:.05rem; bottom:.05rem; display:block; width:.2rem; height:.2rem; background-image:url(../images/slice/video.png); }
+.g-list li:active { background:#E3E3E3; }
+.g-list li .href { display:-webkit-box; position:relative; height:.7rem;}
+.g-list .left { display:block; width:.85rem; height:.7rem; margin-right:.1rem;}
+.g-list .left img { display:block; width:100%; }
+.g-list .right { -webkit-box-flex:1; }
+.g-list .right .title { font-size:.16rem; height:.48rem; line-height:.24rem; color:#0F0F0F; padding-right:.2rem;}
+.g-list .right .ad-text { float:right;  }
+.g-list .right .ad-text span:nth-child(2) { display:block; width:.3rem; height:.14rem; line-height:.14rem; text-align:center; font-size:.1rem; background:#2E5CD4; color:#fff; float:right;margin-right:.06rem; border-radius:.03rem;}
+.g-list .right .ad-text .ad-icon { display:block; float:right; width:.24rem; height:.15rem; background-image:url(../images/slice/ad-ion.png); margin-right:.2rem; }
+.g-list .right .right-tip .author { font-size:.14rem; color:#949494; }
+.g-list .right .right-tip .text { float:right; margin-right:.1rem; color:#949494; }
+.g-list .right .right-tip .text-tip1 { border:1px solid #A8A6A9; display:inline-block; margin-left:.05rem; color:#5171C0; border-radius:.03rem; padding:.02rem; font-size:.12rem;}
+.g-list .right .right-tip .text-tip2 { color:#F9B33F;}
+.g-list .right .right-tip .text-tip2 .ico { display:inline-block; width:.09rem; height:.09rem; background-size:100% 100%; background-image:url(../images/slice/zj@2x.png); }
+
+/* 请求的数据结束 */
